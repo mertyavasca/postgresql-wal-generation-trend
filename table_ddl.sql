@@ -1,0 +1,1 @@
+create table wal_trend (time timestamp, count integer);
