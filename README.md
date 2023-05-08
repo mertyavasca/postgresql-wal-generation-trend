@@ -1,5 +1,5 @@
 # postgresql-wal-generation-trend
-Procedure for tracking Postgresql wal generation to analyze pg_wal switches like Oracle log switch frequency map.
+Procedure for tracking Postgresql wal generation like Oracle log switch frequency map.
 
 Comparing the number of wal productions gives a lot of clues to understand the workload of the database.
 
