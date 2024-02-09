@@ -4,7 +4,6 @@ AS $$
 DECLARE
     wal_file_count INTEGER;
 BEGIN
-    select count(*) from pg_stat_activity;
     SELECT COUNT(*) INTO wal_file_count
     FROM pg_ls_dir('pg_wal') AS f(filename)
     WHERE filename ~ '^[0-9A-F]{24}$'
